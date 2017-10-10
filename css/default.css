@@ -1,0 +1,84 @@
+* {
+    font-family: "Trebuchet MS";
+}
+body {
+    background: #cccccc;
+    text-align: center;
+}
+table {
+    border: 3px solid #e5eff8;
+    margin: 0 auto 20px auto;
+    border-collapse: collapse;
+    background: #f4f9fe;
+}
+table caption {
+    font-style: italic;
+}
+thead th.week {
+    padding-left: 5px;
+    font-size: 1.2em;
+    text-align: left;
+    color: #555555;
+}
+thead th.corner {
+    background: #e5eff8;
+}
+thead th.bar {
+    background: #e5eff8;
+    font-size: 0.6em;
+}
+thead th.bar a {
+    font-weight: bold;
+    color: #66a3d3;
+    text-decoration: none;
+}
+tbody th {
+    color: #678197;
+    border: 1px solid #e5eff8;
+    padding: 0 0.2em;
+    text-align: center;
+}
+tbody th.hour {
+    vertical-align: text-top;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+tbody th.minute {
+    padding: 0 10px;
+    font-size: 0.5em;
+}
+table tbody td {
+    border-left: 1px solid #cccccc;
+    font-size: 0;
+}
+tbody td.border {
+    border-right: 2px solid #999999;
+}
+thead th, table tbody td.strong {
+    font-size: inherit;
+    background: #f4f9fe;
+    text-align: center;
+    font-weight: bold;
+    color: #66a3d3;
+}
+
+a {
+    color: inherit;
+}
+small {
+    font-size: 0.7em;
+}
+fieldset {
+    width: 60%;
+    margin: 0 auto 0 auto;
+}
+
+div.ui-slider {
+    margin: 0 auto 50px auto;
+}
+a.multiSelect {
+    margin-top: 50px;
+}
+div.multiSelectOptions {
+    text-align: left;
+}
